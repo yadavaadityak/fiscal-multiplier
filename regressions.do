@@ -1,14 +1,14 @@
 cls 
 clear all
 
-cd "/Users/aadityakumaryadav/Downloads/Thesis/DOFILES" 
+cd "" 
 
 
 // saves the stuff printed on the screen into a separate file 
 capture log close 
 log using lpirf_inflation_expectations.smcl, replace 
 
-import excel "/Users/aadityakumaryadav/Downloads/Thesis/DOFILES/countries_long.xlsx",  firstrow clear
+import excel "",  firstrow clear
 
 // browse
 
